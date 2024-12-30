@@ -1,6 +1,6 @@
 import './Footer11.css';
 import { Link } from 'react-router-dom';
-import logoO from '../assets/IITHLOGO.png';
+import logoO from '../assets/logo1.png';
 
 function Footer() {
     return (

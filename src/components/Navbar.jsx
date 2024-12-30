@@ -2,7 +2,7 @@ import clsx from "clsx";
 import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo2.png';
 
 import Button from "./Button";
 

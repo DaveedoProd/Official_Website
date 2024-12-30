@@ -18,7 +18,7 @@ html {
     font-weight: 900; 
     font-size: 32.3vw; 
     margin-top: -11.45vw;
-    margin-bottom: -6.25vw;
+    margin-bottom: -10.25vw;
   }
 
   
@@ -47,17 +47,18 @@ html {
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
     width: 80%;
+    margin-bottom: -5vw;
   }
   
   .footer-content-logo {
-    margin-top: 4.16vw;
+    margin-top: 0vw;
     margin-bottom: 1.04vw;
   }
   
   .footer-content-logo-img {
-    width: 15.625vw;
+    width: 22vw;
     max-width: 100%;
   }
   
@@ -69,6 +70,7 @@ html {
   }
   
   .footer-content-links {
+    margin-top: 3vw;
     display: flex;
     justify-content: space-between;
     align-items: start;
