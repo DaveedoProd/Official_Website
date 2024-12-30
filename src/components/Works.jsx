@@ -112,7 +112,7 @@ const Works = () => (
           WORKS
         </h1>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-        Check out our team’s epic creations, from jaw-dropping velocity edits to cinematic masterpieces, all crafted to make your imagination shine.
+          Check out our team’s epic creations, from jaw-dropping velocity edits to cinematic masterpieces, all crafted to make your imagination shine.
         </p>
       </div>
 
@@ -121,7 +121,7 @@ const Works = () => (
           src={yt}
           title={
             <>
-              WORK1
+              Youtube Videos
             </>
           }
           description="Turning ideas into viral YouTube magic—crafted to captivate and inspire"
@@ -135,7 +135,7 @@ const Works = () => (
             src={velocity}
             title={
               <>
-                work2
+                Velocity Edits
               </>
             }
             description="High-speed visuals for the Gen Z era—where brands meet reels that truly click"
@@ -148,7 +148,7 @@ const Works = () => (
             src={graded}
             title={
               <>
-                work3
+                Color Grading
               </>
             }
             description="Bringing stories to life with colors that speak louder than words"
@@ -158,11 +158,10 @@ const Works = () => (
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            // src="videos/feature-4.mp4"
             src={cine}
             title={
               <>
-                work4
+                Cinematic Videos
               </>
             }
             description="Crafting cinematic masterpieces—where every frame feels like the big screen"
@@ -182,7 +181,7 @@ const Works = () => (
           </BentoTilt>
         </Link>
 
-        <BentoTilt className="bento-tilt_2">
+        {/* <BentoTilt className="bento-tilt_2">
           <video
             src={thumb}
             loop
@@ -191,6 +190,22 @@ const Works = () => (
             className="size-full object-cover object-center"
           />
         </BentoTilt>
+         */}
+
+
+        <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoCard
+            src={thumb}
+            title={
+              <>
+                Thumbnails
+              </>
+            }
+            description="First impressions matter—our thumbnails make sure you’re clicked on every time"
+            isComingSoon
+          />
+        </BentoTilt>
+
       </div>
     </div>
   </section>

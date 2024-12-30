@@ -3,11 +3,8 @@ html {
 }
 
 .footer-container {
-    padding-top: 80px;
-    padding-bottom: 30px;
-    /* background-color: #5724ff; */
-    /* background-color: #edff66; */
-    /* background-color: #002e67; */
+    padding-top: 4.16vw;
+    padding-bottom: 1.56vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,8 +17,8 @@ html {
     font-family: 'Zentry', sans-serif; 
     font-weight: 900; 
     font-size: 32.3vw; 
-    margin-top: -220px;
-    margin-bottom: -120px;
+    margin-top: -11.45vw;
+    margin-bottom: -6.25vw;
   }
 
   
@@ -55,12 +52,12 @@ html {
   }
   
   .footer-content-logo {
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 4.16vw;
+    margin-bottom: 1.04vw;
   }
   
   .footer-content-logo-img {
-    width: 300px;
+    width: 15.625vw;
     max-width: 100%;
   }
   
@@ -75,7 +72,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    gap: 140px;
+    gap: 7.3vw;
     flex-wrap: wrap;
   }
   
@@ -83,26 +80,24 @@ html {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin: 15px;
+    margin: 0.78vw;
     width: auto;
     text-align: center;
     box-sizing: border-box;
-    gap: 8px;
+    gap: 0.4166vw;
   }
   
   .footer-link-items h2 {
-    margin-bottom: 16px;
+    margin-bottom: 0.833vw;
     color: black;
     /* color: azure; */
-    margin-bottom: 8px;
+    margin-bottom: 0.4166vw;
     font-size: 1.2rem;
     font-weight: 500;
   }
   
   .footer-link-items a {
     color: black;
-    /* color: azure; */
-
     text-decoration: none;
     font-size: 1rem;
     margin-bottom: 0.3rem;
@@ -116,10 +111,10 @@ html {
   
   .social-media {
     display: flex;
-    gap: 10px;
+    gap: 0.52vw;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 2vw;
   }
   
   .copyright {
@@ -132,7 +127,7 @@ html {
   
   .dev-all {
     display: flex;
-    gap: 50px;
+    gap: 2.6vw;
     justify-content: center;
   }
   
@@ -155,26 +150,26 @@ html {
     }
   
     .footer-content-logo-img {
-      width: 250px;
+      width: 33.02vw;
     }
   
     .footer-content-links {
       justify-content: center;
-      gap: 30px;
+      gap: 15.5625vw;
     }
   
     .footer-link-items {
-      width: 150px;
+      width: 7.8125vw;
     }
   
     .dev-all {
       flex-direction: column;
-      gap: 20px;
+      gap: 1.04vw;
     }
   
     .social-media {
       flex-direction: column;
-      gap: 20px;
+      gap: 1.04vw;
       align-items: center;
     }
   }
@@ -199,13 +194,18 @@ html {
     .social-media {
       font-size: 0.85rem;
     }
+
+    .footer-content-links {
+      gap: 25vw;
+      margin-bottom: 7vw;
+    }
   
     .footer-content-logo-img {
-      width: 200px;
+      width: 40.41vw;
     }
   
     .dev-all {
-      gap: 15px;
+      gap: 0.78vw;
     }
   
     .copyright {

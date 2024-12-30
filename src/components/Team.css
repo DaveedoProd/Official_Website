@@ -4,7 +4,7 @@
 }
 
 .team-grid {
-  margin-top: 70px;
+  margin-top: 3.64vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,29 +12,29 @@
 
 .team-grid-one {
   display: flex;
-  gap: 120px;
+  gap: 6.25vw;
 }
 
 .team-grid-two {
   display: flex;
-  gap: 120px;
+  gap: 6.25vw;
 }
 
 
 .team-member {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.781vw;
   align-items: center;
-  margin: 20px;
+  margin: 0.04vw;
   margin-left: 0px;
   margin-right: 0px ;
-  margin-bottom: 100px;
+  margin-bottom: 5.2vw;
 }
 
 .team-img {
-  width: 300px;
-  height: 300px;
+  width: 15.625vw;
+  height: 15.625vw;
   border-radius: 50%;
 }
 
@@ -42,5 +42,5 @@
   font-family: circular-web;
   color: #f4f4ff; 
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.14vw;
 }

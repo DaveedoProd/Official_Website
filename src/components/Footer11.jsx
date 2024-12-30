@@ -15,16 +15,11 @@ function Footer() {
                 <div className='footer-content-links'>
                     <div className='footer-link-items'>
                         <h2>Pages</h2>
-                        {/* <Link to='/'>Home</Link> */}
                         <a href='#home'>Home</a>
                         <a href='#about' className='nav-links'>About</a>
                         <a href='#works' className='nav-links'>Works</a>
                         <a href='#clients' className='nav-links'>Clients</a>
                         <a href='#contact' className='nav-links'>Contact</a>
-                        {/* <Link to='#about'>About</Link> */}
-                        {/* <Link to='/infrastructure'>Work</Link> */}
-                        {/* <Link to='/phases'>Clients</Link> */}
-                        {/* <Link to='https://www.iith.ac.in/tenders/#Civil%20Works'>Contact</Link> */}
                     </div>
                     <div className='footer-link-items'>
                         <h2>Follow Us</h2>

@@ -4,19 +4,19 @@
 }
 
 .contact-all {
-    margin-bottom: 340px;
+    margin-bottom: 17.7vw;
 }
 
 .contact-head {
     font-family: zentry;
-    font-size: 130px;
+    font-size: 6.77vw;
     color: black;
-    margin-left: 70px;
-    margin-top: 20px;
+    margin-left: 3.645vw;
+    margin-top: 1.04vw;
 }
 
 .contact-content {
-    margin-top: 200px;
+    margin-top: 10.4vw;
     display: flex;
     flex-direction: column;
 }
@@ -25,15 +25,15 @@
     font-family: circular-web;
     color: black; 
     font-weight: 400;
-    font-size: 45px;
+    font-size: 2.34vw;
     text-align: center;
 }
 
 .contact-button {
-    margin-top: 15px;
+    margin-top: 0.78vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    gap: 45px;
+    gap: 2.34vw;
 }
 
