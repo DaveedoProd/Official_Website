@@ -1,0 +1,39 @@
+@font-face {
+    font-family: circular-web;
+    src: url(/fonts/circularweb-book.woff2);
+}
+
+.contact-all {
+    margin-bottom: 340px;
+}
+
+.contact-head {
+    font-family: zentry;
+    font-size: 130px;
+    color: black;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.contact-content {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-para {
+    font-family: circular-web;
+    color: black; 
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+}
+
+.contact-button {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 45px;
+}
+

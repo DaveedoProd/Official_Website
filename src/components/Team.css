@@ -1,0 +1,46 @@
+@font-face {
+  font-family: circular-web;
+  src: url(/fonts/circularweb-book.woff2);
+}
+
+.team-grid {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-grid-one {
+  display: flex;
+  gap: 120px;
+}
+
+.team-grid-two {
+  display: flex;
+  gap: 120px;
+}
+
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin: 20px;
+  margin-left: 0px;
+  margin-right: 0px ;
+  margin-bottom: 100px;
+}
+
+.team-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.team-name {
+  font-family: circular-web;
+  color: #f4f4ff; 
+  font-weight: 400;
+  font-size: 22px;
+}
