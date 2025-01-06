@@ -1,0 +1,32 @@
+.clients-all {
+    /* background-color: white; */
+    height: 35vw;
+    padding-top: 4vw;
+}
+
+.marquee {
+    position: relative;
+    top: 10vh;
+}
+
+.marquee-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 0vw 0.5vw;
+}
+
+.sponsors-box {
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid #676767;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    width: 30vh;
+}
+
+.sponsors-box img {
+    height: 100%;
+    width: 100%;
+}

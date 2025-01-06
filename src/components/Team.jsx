@@ -24,7 +24,7 @@ const Team = () => {
 
                             <div className="team-member">
                                 <img className="team-img" src={ff} alt="yoo" />
-                                <h2 className="team-name">Team Member 6</h2>
+                                <h2 className="team-name">Krish Pandey</h2>
                             </div>
 
                             <div className="team-member">
@@ -34,7 +34,7 @@ const Team = () => {
 
                             <div className="team-member">
                                 <img className="team-img" src={gg} alt="yoo" />
-                                <h2 className="team-name">Team Member 7</h2>
+                                <h2 className="team-name">Ankur Prasad</h2>
                             </div>
                         </div>
 
@@ -42,7 +42,7 @@ const Team = () => {
                         <div className="team-grid-two">
                             <div className="team-member">
                                 <img className="team-img" src={dd} alt="yoo" />
-                                <h2 className="team-name">Team Member 4</h2>
+                                <h2 className="team-name">Samaksh Gour</h2>
                             </div>
                             <div className="team-member">
                                 <img className="team-img" src={bb} alt="yoo" />
@@ -50,11 +50,11 @@ const Team = () => {
                             </div>
                             <div className="team-member">
                                 <img className="team-img" src={ee} alt="yoo" />
-                                <h2 className="team-name">Team Member 5</h2>
+                                <h2 className="team-name">Aditya Soni</h2>
                             </div>
                             <div className="team-member">
                                 <img className="team-img" src={cc} alt="yoo" />
-                                <h2 className="team-name">Team Member 3</h2>
+                                <h2 className="team-name">Sunil Gupta</h2>
                             </div>
 
 

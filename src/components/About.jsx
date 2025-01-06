@@ -1,9 +1,8 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import about from '../assets/about.mp4';
-import about_pic from "../assets/about_picc.png";
 import AnimatedTitle from "./AnimatedTitle";
+import about from '../assets/Work2/main.mp4';
 
 gsap.registerPlugin(ScrollTrigger);
 

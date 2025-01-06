@@ -5,9 +5,7 @@ import NavBar from "../../components/Navbar";
 import Works from "../../components/Works";
 import Clients from "../../components/Clients";
 import Contact from "../../components/Contact";
-import Footer from "../../components/Footer11";
 import Team from "../../components/Team";
-import ShowReel from "../../components/ShowReel";
 
 const Home = () => {
     return (

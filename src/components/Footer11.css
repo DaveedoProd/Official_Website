@@ -27,7 +27,7 @@ html {
       right: 2.5rem; 
       font-size: 4.5rem; 
     }
-  }
+  
   
   @media (min-width: 768px) { 
     .hero-heading2 {

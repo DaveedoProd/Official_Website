@@ -1,11 +1,12 @@
 import { useState, useRef } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import { Link } from "react-router-dom";
-import graded from '../assets/Work/graded.mp4';
-import thumb from '../assets/Work/thumbnil.mp4';
-import cine from '../assets/Work/cine.mp4';
-import velocity from '../assets/Work/velocity.mp4';
-import yt from '../assets/Work/yt.mp4';
+import graded from '../assets/Work2/colo.mp4';
+import thumb from '../assets/Work2/thum.mp4';
+import cine from '../assets/Work2/cini.mp4';
+import velocity from '../assets/Work2/velo.mp4';
+import yt from '../assets/Work2/ytvi.mp4';
+
 
 export const BentoTilt = ({ children, className = "" }) => {
   const [transformStyle, setTransformStyle] = useState("");

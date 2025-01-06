@@ -19,17 +19,19 @@ const Contact = () => {
                         before="DM ON WHATSAPP"
                         after="https://api.whatsapp.com/message/RY4S3UFR3T6VC1?autoload=1&app_absent=0"
                         containerClass="mt-5"
+                        linkTo='https://wa.link/hdaoa4'
                     />
                     <Button
                         id="realm-btn"
                         before="SHOOT US A MAIL"
-                        after="ma23btech11002@iith.ac.in"
+                        after="daveedoproductions@gmail.com"
                         containerClass="mt-5"
+                        linkTo='mailto:daveedoproductions@gmail.com'
                     />
                     <Button
                         id="realm-btn"
                         before="CALL US NOW"
-                        after="+91 123456789"
+                        after="+91 9770401417"
                         containerClass="mt-5"
                     />
                 </div>

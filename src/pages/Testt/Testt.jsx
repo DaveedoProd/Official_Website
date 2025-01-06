@@ -3,33 +3,85 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Testt.css';
-import about_picc from "../../assets/client_pic1.jpeg";
-import graded from '../../assets/Work/graded.mp4';
+import a from '../../assets/WorkPage/11.mp4';
+import aa from '../../assets/WorkPage/11.jpg';
+import b from '../../assets/WorkPage/22.mp4';
+import bb from '../../assets/WorkPage/22.jpg';
+import c from '../../assets/WorkPage/33.mp4';
+import cc from '../../assets/WorkPage/33.jpg';
+import d from '../../assets/WorkPage/44.mp4';
+import dd from '../../assets/WorkPage/44.jpg';
+import e from '../../assets/WorkPage/55.mp4';
+import ee from '../../assets/WorkPage/55.jpg';
+import f from '../../assets/WorkPage/66.mp4';
+import ff from '../../assets/WorkPage/66.jpg';
+import g from '../../assets/WorkPage/77.mp4';
+import gg from '../../assets/WorkPage/77.png';
+import h from '../../assets/WorkPage/88.mp4';
+import hh from '../../assets/WorkPage/88.png';
+import i from '../../assets/WorkPage/99.mp4';
+import ii from '../../assets/WorkPage/99.png';
 
 const data = [
     {
         name: 'Paris',
-        img: about_picc,
-        video: graded,
+        img: aa,
+        video: a,
         description: 'Experience the beauty of Paris.',
     },
     {
         name: 'Warsaw',
-        img: about_picc,
-        video: graded,
+        img: bb,
+        video: b,
         description: 'Explore the vibrant streets of Warsaw.',
     },
     {
         name: 'Madrid',
-        img: about_picc,
-        video: graded,
+        img: cc,
+        video: c,
+        description: 'Feel the charm of Madrid.',
+    },
+    {
+        name: 'Paris',
+        img: dd,
+        video: d,
+        description: 'Experience the beauty of Paris.',
+    },
+    {
+        name: 'Warsaw',
+        img: ee,
+        video: e,
+        description: 'Explore the vibrant streets of Warsaw.',
+    },
+    {
+        name: 'Madrid',
+        img: ff,
+        video: f,
+        description: 'Feel the charm of Madrid.',
+    },
+    {
+        name: 'Paris',
+        img: gg,
+        video: g,
+        description: 'Experience the beauty of Paris.',
+    },
+    {
+        name: 'Warsaw',
+        img: hh,
+        video: h,
+        description: 'Explore the vibrant streets of Warsaw.',
+    },
+    {
+        name: 'Madrid',
+        img: ii,
+        video: i,
         description: 'Feel the charm of Madrid.',
     },
 ];
 
 const Testt = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
-    
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -44,7 +96,7 @@ const Testt = () => {
 
     return (
         <div className='carousel-container2'>
-            <h1 className="work-head4">Works</h1>
+            <h1 className="work-head4">OUR TOP WORKS!</h1>
             <div className='w-5/6 m-auto'>
                 <div className='mt-20'>
                     <Slider {...settings}>
@@ -56,28 +108,25 @@ const Testt = () => {
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 onMouseLeave={() => setHoveredIndex(null)}
                             >
-                                {/* Image */}
                                 <img
                                     src={d.img}
                                     alt={d.name}
                                     className='w-full h-56 object-cover rounded-t-xl'
                                 />
 
-                                {/* Video */}
                                 <video
-                                    className='absolute top-0 left-0 w-full h-full object-cover'
+                                    src={d.video}
                                     autoPlay
                                     loop
                                     muted
-                                >
-                                    <source src={d.video} type="video/mp4" />
-                                </video>
+                                    className="absolute top-0 left-0 w-full h-full object-cover"
+                                />
 
                                 {/* Heading and Description */}
-                                <div className='card-content flex flex-col items-center justify-center gap-4 pt-48'>
+                                {/* <div className='card-content flex flex-col items-center justify-center gap-4 pt-48'>
                                     <p className='text-xl font-semibold'>{d.name}</p>
                                     <p className='text-center'>{d.description}</p>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </Slider>
