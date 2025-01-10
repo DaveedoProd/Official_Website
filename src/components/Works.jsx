@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import graded from '../assets/Work2/colo.mp4';
 import thumb from '../assets/Work2/thum.mp4';
 import cine from '../assets/Work2/cini.mp4';
-import velocity from '../assets/Work2/velo.mp4';
+import velocity from '../assets/Work2/velo2.mp4';
 import yt from '../assets/Work2/ytvi.mp4';
 
 

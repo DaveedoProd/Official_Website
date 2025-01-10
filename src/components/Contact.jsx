@@ -1,8 +1,8 @@
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
-import contact_pic1 from "../assets/contact_pic1.jpeg";
+import contact_pic1 from "../assets/Contact/1.jpg";
 import contact_pic2 from "../assets/contact_pic2.jpeg";
-import contact_pic5 from "../assets/contact_pic5.jpeg";
+import contact_pic5 from "../assets/Contact/2.jpeg";
 
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
@@ -20,18 +20,18 @@ const Contact = () => {
             src={contact_pic5}
             clipClass="contact-clip-path-1"
           />
-          <ImageClipBox
+          {/* <ImageClipBox
             // src="/img/contact-2.webp"
             src={contact_pic2}
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
-          />
+          /> */}
         </div>
 
         <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
-          <ImageClipBox
+          {/* <ImageClipBox
             src="/img/swordman-partial.webp"
             clipClass="absolute md:scale-125"
-          />
+          /> */}
           <ImageClipBox
             src={contact_pic1}
             clipClass="sword-man-clip-path md:scale-125"
