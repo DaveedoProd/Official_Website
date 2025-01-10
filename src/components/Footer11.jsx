@@ -12,23 +12,13 @@ function Footer() {
                 <div className='footer-content-logo'>
                     <img className='footer-content-logo-img' src={logoO} alt="logo" />
                 </div>
-                <div className='footer-content-links'>
                     <div className='footer-link-items'>
-                        <h2>Pages</h2>
                         <a href='#home'>Home</a>
                         <a href='#about' className='nav-links'>About</a>
                         <a href='#works' className='nav-links'>Works</a>
                         <a href='#clients' className='nav-links'>Clients</a>
                         <a href='#contact' className='nav-links'>Contact</a>
                     </div>
-                    <div className='footer-link-items'>
-                        <h2>Follow Us</h2>
-                        <Link to='/'>Discord</Link>
-                        <Link to='/'>X</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Instagram</Link>
-                    </div>
-                </div>
             </section>
             <section className='social-media'>
                 <p className='copyright'>

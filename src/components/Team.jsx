@@ -7,6 +7,7 @@ import dd from '../assets/Team/44.jpg';
 import ee from '../assets/Team/55.jpg';
 import ff from '../assets/Team/66.jpg';
 import gg from '../assets/Team/77.jpg';
+import hh from '../assets/Team/88.jpeg';
 
 const Team = () => {
 
@@ -35,6 +36,11 @@ const Team = () => {
                             <div className="team-member">
                                 <img className="team-img" src={gg} alt="yoo" />
                                 <h2 className="team-name">Ankur Prasad</h2>
+                            </div>
+
+                            <div className="team-member">
+                                <img className="team-img" src={hh} alt="yoo" />
+                                <h2 className="team-name">Ankush Singh</h2>
                             </div>
                         </div>
 

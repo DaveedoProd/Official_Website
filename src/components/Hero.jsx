@@ -56,7 +56,6 @@ const Hero = () => {
       >
         <video
           ref={videoRef}
-          // src={getVideoSrc()}
           src={Cover}
           autoPlay
           loop
@@ -79,13 +78,13 @@ const Hero = () => {
               TO EXPRESS IS TO ART. <br /> UNLEASH THE TRUE POWER OF YOUR BRAND.
             </p>
 
-            <Button
+            {/* <Button
               id="show-reel"
               title="Showreel"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
               linkTo="#showreel"
-            />
+            /> */}
           </div>
         </div>
       </div>
