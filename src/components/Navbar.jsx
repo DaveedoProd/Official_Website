@@ -6,7 +6,7 @@ import Logo from '../assets/logo2.png';
 
 import Button from "./Button";
 
-const navItems = ["Home", "About", "Works", "Clients", "Contact"];
+const navItems = ["Home", "About", "Works", "Clients", "Team", "Contact"];
 
 const NavBar = () => {
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);

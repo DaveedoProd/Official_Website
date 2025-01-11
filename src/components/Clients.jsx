@@ -18,7 +18,7 @@ const Clients = () => {
   const sponsorMarqueeRef = useRef(null);
 
   return (
-    <div className='clients-all'>
+    <div id='clients' className='clients-all'>
       <AnimatedTitle
         title="Clients and Friends"
         containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
