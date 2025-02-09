@@ -43,3 +43,37 @@
   font-weight: 400;
   font-size: 1.14vw;
 }
+
+@media screen and (max-width: 992px) {
+  .team-grid {
+    margin-top: 5vh;
+  }
+
+  .team-grid-one {
+    gap: 6vw;
+    flex-direction: column;
+  }
+
+  .team-grid-two {
+    margin-top: 5vw;
+    gap: 6vw;
+    flex-direction: column;
+  }
+
+  .team-member {
+    margin-bottom: 2vw;
+  } 
+
+  .team-img {
+    width: 50vw;
+    height: 50vw;
+  } 
+
+  .team-name {
+    font-size: 4.5vw;
+  } 
+
+  .team-member {
+    margin-bottom: 2vw;
+  }
+}

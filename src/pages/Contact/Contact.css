@@ -37,3 +37,40 @@
     gap: 2.34vw;
 }
 
+
+@media screen and (max-width: 992px) {
+    .contact-head {
+        font-size: 18vw;
+    }
+
+    .contact-para {
+        font-size: 7vw;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 12vw;
+    }
+    
+    .contact-button {
+        flex-direction: column;
+        gap: 6vw;
+    }
+
+    .contact-button button {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .contact-content {
+        margin-top: 5vw;
+    }
+
+    .contact-head {
+        margin-top: 5vw;
+    }   
+
+    .contact-para {
+        margin-top: 5vw;
+    }   
+}
