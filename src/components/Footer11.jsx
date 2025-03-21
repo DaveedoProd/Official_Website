@@ -25,11 +25,11 @@ function Footer() {
                     © 2024 Daveedo Productions. All rights reserved.
                 </p>
 
-                <div className='dev-all'>
+                {/* <div className='dev-all'>
                     <a href="https://ankushs.me" target="_blank" rel="noopener noreferrer">
                         <p className='developed'>Ankush Singh</p>
                     </a>
-                </div>
+                </div> */}
             </section>
         </div>
     );
